@@ -1,0 +1,114 @@
+{
+  "editor": {
+    "enableUndoRedo": true,
+    "toolbarVisible": true,
+    "toolbarOptions": {
+      "mergeVisible": false,
+      "cutVisible": false,
+      "reshapeVisible": false
+    },
+    "layerInfos": [
+      {
+        "featureLayer": {
+          "id": "keystone_xl_edit_6495"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": true
+          },
+          {
+            "fieldName": "LABEL",
+            "label": "LABEL",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DESCRIPTION",
+            "label": "DESCRIPTION",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "SHARE",
+            "label": "SHARE",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "keystone_xl_edit_6713"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": true
+          },
+          {
+            "fieldName": "LABEL",
+            "label": "LABEL",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DESCRIPTION",
+            "label": "DESCRIPTION",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "SHARE",
+            "label": "SHARE",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "keystone_xl_edit_8821"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": true
+          },
+          {
+            "fieldName": "LABEL",
+            "label": "LABEL",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DESCRIPTION",
+            "label": "DESCRIPTION",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "SHARE",
+            "label": "SHARE",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      }
+    ],
+    "useFilterEdit": false,
+    "autoApplyEditWhenGeometryIsMoved": false,
+    "snappingTolerance": 15,
+    "popupTolerance": 5,
+    "stickyMoveTolerance": 0
+  }
+}

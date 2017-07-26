@@ -174,9 +174,25 @@ define([
 
       //domStyle.set(divLabel, 'width', 263 - level*13 + 'px');
 
-      layerTdNode = domConstruct.create('td', {
+	  //exp remove
+      /*layerTdNode = domConstruct.create('td', {
         'class': 'col col3'
-      }, layerTrNode);
+      }, layerTrNode);*/
+	  //exp end remove
+	  
+	  //exp add
+	  if (layerInfo.parentLayerInfo === null || layerInfo.newSubLayers.length === 0) {
+		  layerTdNode = domConstruct.create('td', {
+		  	  'class': 'col col3'
+		  }, layerTrNode);
+	  } else {
+		  layerTdNode = domConstruct.create('td', {
+			  'class': 'col col3',
+			  'style': 'display: none',
+			  'width': '0'
+		  }, layerTrNode);                            
+	  };
+	  //exp end
 
       var popupMenuDisplayStyle = this.hasContentMenu() ? "display: block" : "display: none";
       // add popupMenu

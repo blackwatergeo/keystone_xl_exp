@@ -109,6 +109,7 @@
     "autoApplyEditWhenGeometryIsMoved": false,
     "snappingTolerance": 15,
     "popupTolerance": 5,
-    "stickyMoveTolerance": 0
+    "stickyMoveTolerance": 0,
+    "tableInfos": []
   }
 }

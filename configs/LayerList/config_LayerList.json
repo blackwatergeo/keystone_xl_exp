@@ -1590,6 +1590,21 @@
     "keystone_xl_project_3045_518": {
       "display": true
     },
+    "keystone_xl_project_3045_519": {
+      "display": true
+    },
+    "keystone_xl_project_3045_520": {
+      "display": true
+    },
+    "keystone_xl_project_3045_521": {
+      "display": true
+    },
+    "keystone_xl_project_3045_522": {
+      "display": true
+    },
+    "keystone_xl_project_3045_523": {
+      "display": true
+    },
     "keystone_xl_reference_4709": {
       "display": true
     },
@@ -1642,6 +1657,9 @@
       "display": true
     },
     "North_Dakota_NAIP_2015_Mosaic_6868": {
+      "display": true
+    },
+    "Montana_NAIP_2015_Mosaic_9715": {
       "display": true
     }
   }

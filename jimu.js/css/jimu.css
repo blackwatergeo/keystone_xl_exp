@@ -228,7 +228,7 @@ div.attribute-custom-style{
 /***************************************************************************
 classes can be used in the html
 ****************************************************************************/
-.jimu-main-background{background-color: #485566;}
+.jimu-main-background{background-color: transparent;}
 .jimu-main-background-2{background-color: white;}
 
 .jimu-ellipsis{

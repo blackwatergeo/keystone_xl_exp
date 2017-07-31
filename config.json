@@ -240,19 +240,17 @@
       "bottom": 0
     },
     "itemId": "5ade0dd9a2b042afb1d06e28e14df548",
-     "mapOptions": {
-            "extent": {
-                "xmin": -13200980.532959644,
-                "ymin": 4688311.97507203,
-                "xmax": -9443947.718687657,
-                "ymax": 6420069.287900524,
-                "spatialReference": {
-                    "wkid": 102100
-                }
-
-            }
-
-        },
+    "mapOptions": {
+      "extent": {
+        "xmin": -13200980.532959644,
+        "ymin": 4688311.97507203,
+        "xmax": -9443947.718687657,
+        "ymax": 6420069.287900524,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
     "id": "map",
     "portalUrl": "https://gis.exp.com/exp_portal"
   },
@@ -314,13 +312,21 @@
         "id": "widgets_Measurement_Widget_20"
       },
       {
+        "name": "eSearch",
+        "version": "2.4.0.2",
+        "uri": "widgets/eSearch/Widget",
+        "config": "configs/eSearch/config_eSearch.json",
+        "index": 7,
+        "id": "widgets_eSearch_Widget_32"
+      },
+      {
         "name": "About",
         "label": "Document Download",
         "version": "2.5",
         "icon": "configs\\About\\icon_Document Download.png",
         "uri": "widgets/About/Widget",
         "config": "configs/About/config_Document Download.json",
-        "index": 7,
+        "index": 8,
         "id": "widgets_About_Widget_29"
       },
       {
@@ -330,7 +336,7 @@
         "icon": "configs\\Identify\\icon_Identify.png",
         "uri": "widgets/Identify/Widget",
         "config": "configs/Identify/config_Identify.json",
-        "index": 8,
+        "index": 9,
         "id": "widgets_Identify_Widget_22"
       },
       {
@@ -339,7 +345,7 @@
         "icon": "configs\\eDraw\\icon_eDraw.png",
         "uri": "widgets/eDraw/Widget",
         "config": "configs/eDraw/config_eDraw.json",
-        "index": 9,
+        "index": 10,
         "id": "widgets_eDraw_Widget_23"
       },
       {
@@ -348,16 +354,15 @@
         "IsController": false,
         "icon": "configs\\AddShapefile\\icon_AddShapefile.png",
         "uri": "widgets/AddShapefile/Widget",
-        "index": 10,
-        "id": "widgets_AddShapefile_Widget_24",
-        "config": null
+        "index": 11,
+        "id": "widgets_AddShapefile_Widget_24"
       },
       {
         "name": "Print",
         "version": "2.5",
         "uri": "widgets/Print/Widget",
         "config": "configs/Print/config_Print.json",
-        "index": 11,
+        "index": 12,
         "id": "widgets_Print_Widget_25",
         "icon": "widgets/Print/images/icon.png?wab_dv=2.1"
       },
@@ -368,7 +373,7 @@
         "icon": "configs\\About\\icon_What's New.png",
         "uri": "widgets/About/Widget",
         "config": "configs/About/config_What's New.json",
-        "index": 12,
+        "index": 13,
         "id": "widgets_About_Widget_26"
       },
       {
@@ -378,7 +383,7 @@
         "icon": "configs\\About\\icon_Help.png",
         "uri": "widgets/About/Widget",
         "config": "configs/About/config_Help.json",
-        "index": 13,
+        "index": 14,
         "id": "widgets_About_Widget_27"
       }
     ],

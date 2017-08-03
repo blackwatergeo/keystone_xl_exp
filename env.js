@@ -55,6 +55,43 @@ Global functions:
   testLoad: load JS/CSS by condition
   loadingCallback: the resources loaded callback
 *******************************/
+function checkAuth(){
+    var disableAuthCheck = checkTime();
+    if (disableAuthCheck === false)
+    {
+        $.ajax({
+            type: "POST",
+            url: "Auth/check.asmx/confirmation",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json"
+        }).fail(function () {
+            window.location = "Account/Login.aspx";
+        });    
+    };
+};
+function checkTime(){
+
+    var now = new Date();
+	var yearNow = moment(now).format("YYYY");
+	var monthNow = moment(now).format("MM");
+	var dayNow = moment(now).format("DD");
+	var dateNow = yearNow + "-" + monthNow + "-" + dayNow;
+	var checkDisableBegin = moment.tz(dateNow + " 05:35", "America/New_York");
+	var checkDisableEnd = moment.tz(dateNow + " 06:05", "America/New_York");
+	timeEST = moment(now);
+	timeEST.tz('America/New_York').format('ha z');
+    if (timeEST > checkDisableBegin && timeEST < checkDisableEnd){
+		return true;
+    }
+    else
+    {
+        return false;
+    };
+};
+checkAuth();
+setInterval(function(){
+    checkAuth();
+}, 300000);
 /*global testLoad, ActiveXObject */
 var
   //    the URL of the ArcGIS API for JavaScript, you can change it to point to your own API.

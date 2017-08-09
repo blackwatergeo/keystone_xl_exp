@@ -100,7 +100,13 @@
           "relativeTo": "map"
         },
         "placeholderIndex": 1,
-        "id": "_6"
+        "id": "_6",
+        "name": "ElevationProfile",
+        "version": "2.4.2",
+        "closeable": true,
+        "IsController": false,
+        "uri": "widgets/ElevationProfile/Widget",
+        "config": "configs/ElevationProfile/config_ElevationProfile.json"
       },
       {
         "position": {
@@ -108,7 +114,7 @@
           "top": 45,
           "relativeTo": "map"
         },
-        "placeholderIndex": 2,
+        "placeholderIndex": 1,
         "id": "_7"
       },
       {
@@ -117,7 +123,7 @@
           "top": 45,
           "relativeTo": "map"
         },
-        "placeholderIndex": 3,
+        "placeholderIndex": 2,
         "id": "_8"
       },
       {
@@ -126,7 +132,7 @@
           "top": 45,
           "relativeTo": "map"
         },
-        "placeholderIndex": 4,
+        "placeholderIndex": 3,
         "id": "_9"
       },
       {
@@ -341,7 +347,7 @@
       },
       {
         "name": "eDraw",
-        "version": "2.1.1",
+        "version": "2.1.2",
         "icon": "configs\\eDraw\\icon_eDraw.png",
         "uri": "widgets/eDraw/Widget",
         "config": "configs/eDraw/config_eDraw.json",
